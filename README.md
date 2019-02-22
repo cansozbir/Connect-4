@@ -1,11 +1,16 @@
 # Connect-4
 Connect 4 game , written in Python
 
-#### Building
+##### Building
 ```git clone https://github.com/cansozbir/Connect-4.git  /type/your/path```
 
-#### Play Game !
+##### You should also install pygame
+```python3 -m pip install -U pygame --user```
+
+##### Play Game !
 ```python3 /type/your/path/main.py```
+
+##### Screenshots
 
 ![Main-Menu](https://user-images.githubusercontent.com/32648255/53190261-394e6780-361a-11e9-90dd-3f9d799774bf.png)
 
