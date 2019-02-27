@@ -17,8 +17,7 @@ Model's architecture :
 
 Model's validation accuracy is %99 but it doesn't play the game good enough. And I think that's because of the dataset. It's created with ~9 million random games but i'm not sure about it's homogeneity.
 If you have any suggestions, let me know!
-Dataset : 
-
+Dataset : https://drive.google.com/open?id=17XbCd5BL20AJLTb_oAuKcZrhyHHHeMli
 ##### Screenshots
 
 ![Main-Menu](https://user-images.githubusercontent.com/32648255/53190261-394e6780-361a-11e9-90dd-3f9d799774bf.png)
