@@ -1,0 +1,4 @@
+pygame
+keras
+numpy
+scikit-learn
