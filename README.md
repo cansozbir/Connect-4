@@ -5,7 +5,7 @@ I tried to make an AI which is unbeatable in "connect-4" with Deep Learning meth
 ```git clone https://github.com/cansozbir/Connect-4.git  /type/your/path```
 
 ##### You should also install dependencies
-```pip install -r requirements.txt
+```pip install -r requirements.txt```
 
 ##### Play Game !
 ```python3 /type/your/path/main.py```
@@ -17,6 +17,7 @@ Model's architecture :
 
 Model's validation accuracy is %99 but it doesn't play the game good enough. And I think that's because of the dataset. It's created with ~9 million random games but i'm not sure about it's homogeneity.
 If you have any suggestions, let me know!
+Dataset : 
 
 ##### Screenshots
 
