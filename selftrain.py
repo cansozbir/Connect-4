@@ -4,7 +4,8 @@ game = Game()
 n = int(input())
 for i in range(n):
     while True:
-        if game.isGameFinished():
+        game.isGameFinished()
+        if game.game_over:
             main()
             print(i + 1)
             game = Game()
