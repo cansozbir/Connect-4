@@ -139,11 +139,10 @@ class Game:
                 else:
                     f.write(str(0))
                 f.write('\n')
-            return True
         else:
             board = self.board
             for i in range(len(board)):
                 if 0 in board[i]:
-                    return False
-            return True
+                    return
+            self.game_over = True
 
