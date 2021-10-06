@@ -69,7 +69,8 @@ class Game:
                         copy_of_board[row][column] = self.turn
                         possibleMoves.append((row,column,self.predict(copy_of_board)))
                         break
-
+            if possibleMoves == []:
+                return
             row, col, prob = possibleMoves[0]
             for i in range (len(possibleMoves)) :
                 if possibleMoves[i][2] > prob:
@@ -130,7 +131,7 @@ class Game:
             with open("Data/dataset.csv", "a+") as f:
                 for row in self.board:
                     for element in row :
-                        f.write(str(element)+',')
+                        f.write(str(element) + ',')
                 if self.winner == 'Player1':
                     f.write(str(1))
                 elif self.winner == 'Player2' or 'Computer':
@@ -138,3 +139,10 @@ class Game:
                 else:
                     f.write(str(0))
                 f.write('\n')
+        else:
+            board = self.board
+            for i in range(len(board)):
+                if 0 in board[i]:
+                    return
+            self.game_over = True
+
